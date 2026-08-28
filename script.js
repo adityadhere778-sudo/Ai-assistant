@@ -60,23 +60,24 @@ btn.addEventListener("click", () => {
 
         }else if(message.includes("who is abhishek")){
             speak("abhishek is very dangerous snake live in khadi corner,stay away from this snake")
+
         }else if(message.includes("who is sairaj")){
-            speak("the full name of sairaj is, sairaj kishor kamte ,third year BCA student at vsm collage nippani,and trading partner of trader adii ")
+            speak("the full name of sairaj is, sairaj kishor kamte ,third year BCA student at vsm collage nippani,and trading partner of trader adii")
         } 
         else if(message.includes("who is arnav")){
-            speak("the full name of arnav is, arnav satish mane,third year BCA student at vsm collage nippani")
+            speak("the full name of arnav is, arnav satish mane,third year BCA student at vsm collage ,nippani")
         } 
          else if(message.includes("who is pranav")){
-            speak("the full name of prnav is, prnav suresh kanade,third year BCA student at vsm collage nippani backlog:4")
+            speak("the full name of prnav is, prnav suresh kanade,third year BCA student at vsm collage nippani ,backlogs are 4")
         } 
          else if(message.includes("who is ravikiran")){
-            speak("the full name of ravikiran is, ravikiran patil,third year BCA student at vsm collage nippani backlog :1")
+            speak("the full name of ravikiran is, ravikiran patil,third year BCA student at vsm collage nippani ,backlogs are 1")
         } 
            else if(message.includes("who is shubham")){
-            speak("the full name of shubham is, shubham suryavanshi ,third year B.tech ai-ml engineering student at DKTE ichalkaranji backlog :0 ")
+            speak("the full name of shubham is, shubham suryavanshi ,third year B.tech ai & machinelearning engineering student at DKTE ichalkaranji ,backlogs are 0 ")
         } 
             else if(message.includes("who is parth")){
-            speak("the full name of parth is, parth abhay kulkarni  ,third year B.tech ai-ml engineering student at DKTE ichalkaranji backlog :0 ")
+            speak("the full name of parth is, parth abhay kulkarni  ,third year B.tech ai & machinelearning engineering student at DKTE ichalkaranji ,backlogs are 0 ")
         } 
 
 
