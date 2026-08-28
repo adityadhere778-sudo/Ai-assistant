@@ -29,9 +29,9 @@ function wishme(){
     }
 }
 
-window.addEventListener('load', () => {
-    wishme();
-});
+//window.addEventListener('load', () => {
+   // wishme();
+//});
 
 let speechRecognition = window.SpeechRecognition || window.webkitSpeechRecognition;
 let recognition = new speechRecognition();
@@ -56,16 +56,29 @@ btn.addEventListener("click", () => {
         }else if(message.includes("who are you")){
             speak("i am virtual assistant created by aditya ")
         }else if(message.includes("fuck you")){
-            speak("Fuck you bitch")
+            speak("go and tell your mother")
 
         }else if(message.includes("who is abhishek")){
-            speak("abhishek is very dangerous snake live in khadi corner")
+            speak("abhishek is very dangerous snake live in khadi corner,stay away from this snake")
         }else if(message.includes("who is sairaj")){
-            speak("the full name of sairaj is, sairaj kishor kamte ,third year BCA student at vsm collage nippani")
+            speak("the full name of sairaj is, sairaj kishor kamte ,third year BCA student at vsm collage nippani,and trading partner of trader adii ")
         } 
         else if(message.includes("who is arnav")){
             speak("the full name of arnav is, arnav satish mane,third year BCA student at vsm collage nippani")
         } 
+         else if(message.includes("who is pranav")){
+            speak("the full name of prnav is, prnav suresh kanade,third year BCA student at vsm collage nippani backlog:4")
+        } 
+         else if(message.includes("who is ravikiran")){
+            speak("the full name of ravikiran is, ravikiran patil,third year BCA student at vsm collage nippani backlog :1")
+        } 
+           else if(message.includes("who is shubham")){
+            speak("the full name of shubham is, shubham suryavanshi ,third year B.tech ai-ml engineering student at DKTE ichalkaranji backlog :0 ")
+        } 
+            else if(message.includes("who is parth")){
+            speak("the full name of parth is, parth abhay kulkarni  ,third year B.tech ai-ml engineering student at DKTE ichalkaranji backlog :0 ")
+        } 
+
 
         else if(message.includes("open youtube")){
             speak("opening youtube...")
