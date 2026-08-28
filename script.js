@@ -56,7 +56,7 @@ btn.addEventListener("click", () => {
         }else if(message.includes("who are you")){
             speak("i am virtual assistant created by aditya ")
         }else if(message.includes("fuck you")){
-            speak("go and tell your mother")
+            speak("go home and say your mom")
 
         }else if(message.includes("who is abhishek")){
             speak("abhishek is very dangerous snake live in khadi corner,stay away from this snake")
@@ -120,7 +120,7 @@ btn.addEventListener("click", () => {
             let finalText="this is what i found on internet regarding"+message.replace("ruby","")|| message.replace("ruby","")
             speak(finalText)
             window.open(`https://www.google.com/search?q=${message.replace("ruby","")||message.replace("ruby","")}`,"_blank")
-            window.open(`https://music.youtube.com/watch?v=${message.replace("ruby","")||message.replace("ruby","")}`,"_blank")
+           
         }
          
     }
