@@ -54,7 +54,7 @@ btn.addEventListener("click", () => {
         if(message.includes("hello")){
             speak("hello Bosss")
         }else if(message.includes("who are you")){
-            speak("i am virtual assistant created by aditya boss")
+            speak("i am virtual assistant created by aditya ")
         }else if(message.includes("fuck you")){
             speak("Fuck you bitch")
 
@@ -106,6 +106,7 @@ btn.addEventListener("click", () => {
             let finalText="this is what i found on internet regarding"+message.replace("ruby","")|| message.replace("ruby","")
             speak(finalText)
             window.open(`https://www.google.com/search?q=${message.replace("ruby","")||message.replace("ruby","")}`,"_blank")
+            window.open(`https://music.youtube.com/watch?v=${message.replace("ruby","")||message.replace("ruby","")}`,"_blank")
         }
          
     }
