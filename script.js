@@ -59,7 +59,7 @@ btn.addEventListener("click", () => {
             speak("go home and say your mom")
 
         }else if(message.includes("who is abhishek")){
-            speak("abhishek is very dangerous snake live in khadi corner,stay away from this snake")
+            speak("full name of abhishek is  abhishek jamdar is very dangerous snake live in khadi corner,stay away from this snake")
 
         }else if(message.includes("who is sairaj")){
             speak("the full name of sairaj is, sairaj kishor kamte ,third year BCA student at vsm collage nippani,and trading partner of trader adii")
@@ -79,7 +79,9 @@ btn.addEventListener("click", () => {
             else if(message.includes("who is parth")){
             speak("the full name of parth is, parth abhay kulkarni  ,third year B.tech ai & machinelearning engineering student at DKTE ichalkaranji ,backlogs are 0 ")
         } 
-
+          else if(message.includes("who is suraj narvekar")){
+            speak("the full name of suraj is suraj bhausaheb narvekar ,suraj is full time professional forex trader,future billionaire and his brother  is army officer post in leh-ladakh")
+        } 
 
         else if(message.includes("open youtube")){
             speak("opening youtube...")
@@ -107,6 +109,7 @@ btn.addEventListener("click", () => {
             window.open("https://web.whatsapp.com/")
       
         } 
+     
           else if(message.includes("time")){
             let time=new Date().toLocaleDateString(undefined,{hour:"numeric",minute:"numeric"})
             speak(time)
