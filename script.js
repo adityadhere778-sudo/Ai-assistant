@@ -54,7 +54,7 @@ btn.addEventListener("click", () => {
         if(message.includes("hello")){
             speak("hello Bosss")
         }else if(message.includes("who are you")){
-            speak("i am virtual assistant created by aditya ")
+            speak("i am  Ruby virtual assistant created by aditya ")
         }else if(message.includes("fuck you")){
             speak("go home and say your mom")
 
